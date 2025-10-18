@@ -1,2 +1,2 @@
 # Portfolio-Website
-Portfolio site using HTML &amp; CSS
+Personal portfolio website built using HTML &amp; CSS
