@@ -22,9 +22,9 @@ body {
 }
 
 .navbar {
-      backdrop-filter: blur(25px);
+      backdrop-filter: blur(10px);
       background: rgba(0, 0, 255, 0.1);
-      -webkit-backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       box-shadow: 0 4px 15px rgba(51, 153, 255, 0.4);
       transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -2287,4 +2287,5 @@ footer {
       padding: 13px;
       font-size: 13px;
 }
+
 }
