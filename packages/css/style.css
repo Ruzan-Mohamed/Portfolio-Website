@@ -134,7 +134,7 @@ body {
       font-weight: 700;
 }
 
-.navbar ul li a:active {
+.navbar ul li a:active::after {
       color: #a0b9ff;
 }
 
@@ -2289,4 +2289,3 @@ footer {
       font-size: 13px;
 }
 }
-
