@@ -1773,11 +1773,11 @@ footer {
 
 @media (max-width: 480px) {
 .navbar {
-      height: 45px;
+      height: 38px;
 }
 
 .navbar::before {
-      top: 55px;
+      top: 48px;
 }
 
 .navbar img {
@@ -1791,7 +1791,7 @@ footer {
 .skills h1,
 .projects h1,
 .contacts h1 {
-      font-size: 1.9em;
+      font-size: 1.7em;
 }
 
 .hero-text h1,
@@ -1814,7 +1814,7 @@ footer {
 }
 
 .navbar ul li a {
-      padding: 8px 14px;
+      padding: 7px 14px;
       display: block;
 }
 
@@ -2051,7 +2051,7 @@ footer {
 .skills h1,
 .projects h1,
 .contacts h1 {
-      font-size: 1.5em;
+      font-size: 1.4em;
       padding: 3px;
 }
 
@@ -2075,11 +2075,10 @@ footer {
 }
 
 .navbar ul li a {
-      padding: 8px 14px;
+      padding: 7px 14px;
       display: flex;
       position: relative;
-      top: -20px;
-
+      top: 0;
 }
 
 .hero,
@@ -2289,3 +2288,4 @@ footer {
 }
 
 }
+
