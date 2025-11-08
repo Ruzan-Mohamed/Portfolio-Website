@@ -444,7 +444,7 @@ form button:hover {
    ============================================ */
 
 .footer {
-      max-height: 200px;
+      min-height: 200px;
 }
 
 .footer-section {
@@ -913,3 +913,4 @@ footer {
             margin: 20px 15px;
       }
 }
+
