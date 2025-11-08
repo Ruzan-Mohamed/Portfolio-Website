@@ -127,7 +127,7 @@ section {
       border-radius: 49% 75%;
       width: 100%;
       height: auto;
-      max-width: 600px;
+      min-width: 375px;
 }
 
 .hero span.name {
@@ -213,7 +213,7 @@ section {
       border-radius: 75% 49%;
       width: 100%;
       height: auto;
-      max-width: 600px;
+      min-width: 375px;
 }
 
 .about p {
@@ -912,4 +912,5 @@ footer {
       section {
             margin: 20px 15px;
       }
+
 }
