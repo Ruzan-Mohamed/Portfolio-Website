@@ -214,16 +214,21 @@
                         <span>Galle, Sri Lanka</span>
                   </div>
             </div>
+
             <div class="contact-form">
                   <form action="get-in-touch.php" method="post">
                         <label for="full-name" name="fullname">Full Name: </label>
-                        <input type="text" id="Full Name" placeholder="Full Name">
+                        <input type="text" id="Full Name" placeholder="Full Name" required="required">
+
                         <label for="email" name="email">Email Address: </label>
-                        <input type="email" id="email" placeholder="Email Address">
+                        <input type="email" id="email" placeholder="Email Address" required="required">
+                        
                         <label for="subject" name="subject">Subject: </label>
-                        <input type="text" id="subject" placeholder="Subject">
-                        <label for="message" name="message">Description: </label>
-                        <textarea name="message" id="message" placeholder="Description"></textarea>
+                        <input type="text" id="subject" placeholder="Subject" required="required">
+                        
+                        <label for="message" name="message">Message: </label>
+                        <textarea name="message" id="message" placeholder="Message" required="required"></textarea>
+                        
                         <button type="submit">Submit Query</button>
                   </form>
             </div>
@@ -236,6 +241,7 @@
                   <p class="about-text-footer"><strong>An Aspiring Front-End Developer</strong>.</p>
                   <p class="about-text-footer"><strong>Full-Stack Developer</strong> and <strong>Software Engineer</strong></p>
             </div>
+
             <div class="footer-section">
                   <h3>Quick Links</h3>
                   <ul>
@@ -245,6 +251,7 @@
                         <li><a href="#contact">Contact</a></li>
                   </ul>
             </div>
+            
             <div class="footer-section">
                   <h3>Get In Touch</h3>
                   <div class="contact-footer">
@@ -261,6 +268,7 @@
             </div>
       </section> 
       </div>
+
       <footer>
             &copy; 2025 &#124; Mohamed Ruzan &#124; All Rights Reserved.
       </footer>
@@ -273,5 +281,4 @@
             }
       </script>
 </body>
-
 </html>
