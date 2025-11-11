@@ -418,7 +418,7 @@ form input[type="email"] {
 }
 
 form textarea {
-      min-height: 100px;
+      min-height: 150px;
       resize: vertical;
       padding: 8px 10px;
 }
@@ -913,4 +913,5 @@ footer {
             margin: 20px 15px;
       }
 }
+
 
