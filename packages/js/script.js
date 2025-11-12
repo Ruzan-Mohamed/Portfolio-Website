@@ -9,9 +9,9 @@ document.querySelectorAll('.navbar ul li a') .forEach (link => {
       link.addEventListener('click', () => {
             const menu = document.querySelector ('.navbar ul');
             if (!menu) return;
-            if (window.innerWidth < 768) {
+            if (window.innerWidth <= 768) {
                   menu.style.display = 'none';
-            } else (window.innerWidth > 768) {
+            } else {
                   menu.style.display = 'flex';
             }
       })
