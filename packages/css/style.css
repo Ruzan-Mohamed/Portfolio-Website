@@ -274,7 +274,7 @@ section {
 .skill-tech#four > .rater span:nth-child(-n+3) i,
 .skill-tech#five > .rater span:nth-child(-n+3) i,
 .skill-soft#one > .rater span:nth-child(-n+3) i,
-.skill-soft#two > .rater span:nth-child(-n+3) i,
+.skill-soft#two > .rater span:nth-child(-n+5) i,
 .skill-soft#three > .rater span:nth-child(-n+3) i,
 .skill-soft#four > .rater span:nth-child(-n+4) i {
       color: #3f3f3f;
@@ -287,7 +287,7 @@ section {
 .skill-tech#four > .rater span:nth-child(n+4) i,
 .skill-tech#five > .rater span:nth-child(n+4) i,
 .skill-soft#one > .rater span:nth-child(n+4) i,
-.skill-soft#two > .rater span:nth-child(n+4) i,
+/*.skill-soft#two > .rater span:nth-child(n+4) i,*/
 .skill-soft#three > .rater span:nth-child(n+4) i,
 .skill-soft#four > .rater span:nth-child(5) i {
       color: #d5d3d3;
@@ -418,7 +418,7 @@ form input[type="email"] {
 }
 
 form textarea {
-      min-height: 150px;
+      min-height: 100px;
       resize: vertical;
       padding: 8px 10px;
 }
@@ -444,7 +444,7 @@ form button:hover {
    ============================================ */
 
 .footer {
-      min-height: 200px;
+      max-height: 200px;
 }
 
 .footer-section {
@@ -913,7 +913,3 @@ footer {
             margin: 20px 15px;
       }
 }
-
-
-
-
